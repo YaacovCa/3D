@@ -19,7 +19,7 @@ The core type is `Mesh`, defined in the `geometry` package.
 It represents a 3D object and supports transformation methods directly:
 
 ```go
-mesh := geometry.BuildCube(1.0)
+mesh := BuildCube(1.0)
 mesh.Move(0, 2, 0)
 mesh.Scale(2, 1, 1)
 mesh.Rotate(0, 90, 0)
